@@ -1,34 +1,25 @@
-## Workshop Template
+# Microsoft Learn Student Ambassador (MLSA) - Social Impact League Project (October - December 2022)
+## Team #16: Content Development for Green Tech
+## Team Members: 
+- Arooj Arif (Lead)
+- Chin Hao Wong 
+- Lijie Wong
+- Mirza Baig
 
-Welcome to the Next Generation Team's design template for [building workshops](presentation.pptx), a system designed to help Microsoft Student Ambassadors and their partners to create and deliver excellent technical workshops.
+## Project Description 
+Globally 101.8 million people are affected by one or another form of natural disasters. Changes in climate conditions, especially the warming of global temperatures increases the likelihood of weather-related natural disasters. This year global warming made matters worse and a devastating flood struck one third of Pakistan causing a million homes to be shattered. Pakistan experiences a monsoon season every year and is the fifth most vulnerable country to climate change due to global warming. A great degree of loss associated with the floods can be mitigated by prior prediction and warning. An easy to go tutorial on predicting a flood can serve that cause and also create awareness in this regard. 
 
-## Types of Workshops
+In this project, the team aims to provide a tutorial on developing a flood prediction model and introduce Azure Services such as **Azure Machine Learning**. 
 
-In this template you will find two types of workshops that you can build:
+This tutorial is split into 5 sections:
+1. Global natural disaster data analysis with machine learning
+2. Data manipulation with Pandas
+3. How a single Jupyter Notebook can be used to pre-empt flash flooding and prevent loss
+4. Flood prediction using Logistic Regression in Pakistan
+5. Flood Prediction using Azure Machine Learning
 
-* **[Workshops](./workshop/README.md)** - a workshop that is designed to be completed within 30-90 minutes with content derived from [Microsoft Learn](https://learn.microsoft.com).
-* **[Short Workshops](./short-workshop/README.md)** - a workshop that is designed to be completed within 15-30 minutes with content derived from [Microsoft Learn](https://learn.microsoft.com). 
+At the end of this tutorial, you will be able to make use of such model to  mitigate the losses associated with floods by prior prediction of flood for pre-emption.
 
-## Style Guide
-
-To present a unified voice, please use [this style guide](https://github.com/jlooper/curriculum-template/wiki/Voice) to shape your writing.
-
-## Building a Workshop
-
-- [ ] Decide what kind of workshop you want to design and sync with project lead Jen Looper to work out details.
-- [ ] Discuss your plan with your lead and add it to our DevOps board.
-- [ ] Design your workshop following these steps.
-    - [ ] Fork this template repo to your local machine.
-    - [ ] In the folder of your chosen type of workshop, fill out the [workshop-designer](./workshop/workshop-designer.md) document to design the experience.
-    - [ ] Build slides for the workshop using the appropriate template, depending on which type of workshop you are building. 
-        - For Workshops, use our Particle tool to generate slides. Contact Chris Noring or Jen Looper for help.
-        - For Short-form workshops, slides are optional.
-    - [ ] Write instructions for your workshop based on the README.md file in your folder's template. Your README.md work is minimal, and mostly links back to the source Learn module. Make sure to include a Call to Action with an instrumented link leading back to Docs and/or Learn to learn more.
-    - [ ] If your workshop needs to diverge significantly from the Learn module, write out the steps as milestones, adding images and screenshots as needed.
-    - [ ] Give your folder a descriptive name and PR the folder to the Next Generation Team's workshop library using [the library's PR template](https://github.com/microsoft/workshop-library)
-- [ ] Trainers: Contact Chris Noring or Jen Looper to present your workshop to Microsoft Student Ambassadors to generate a Train the Trainer video for inclusion in the library.
-- [ ] Ambassadors: present workshops to your communities sourced from [the workshop library](https://github.com/microsoft/workshop-library). You can edit and use a [copy of this poster](https://www.canva.com/design/DAEuDXXR9us/share/preview?token=Je0_213uqxmYaXnNYz1v-Q&role=EDITOR&utm_content=DAEuDXXR9us&utm_campaign=designshare&utm_medium=link&utm_source=sharebutton) to publicize it.
-
-## Slides about this project
+## Slides about this project (To be Updated)
 
 - [Explanatory slide deck](https://github.com/microsoft/workshop-template/blob/main/presentation.pptx?raw=true)
