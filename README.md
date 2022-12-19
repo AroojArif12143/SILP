@@ -12,11 +12,11 @@ Globally 101.8 million people are affected by one or another form of natural dis
 In this project, the team aims to provide a tutorial on developing a flood prediction model and introduce Azure Services such as **Azure Machine Learning**. 
 
 This tutorial is split into 5 sections:
-1. Global natural disaster data analysis with machine learning
-2. Data manipulation with Pandas
-3. How a single Jupyter Notebook can be used to pre-empt flash flooding and prevent loss
-4. Flood prediction using Logistic Regression in Pakistan
-5. Flood Prediction using Azure Machine Learning
+1. [Global natural disaster data analysis with machine learning](https://github.com/AroojArif12143/SILP/tree/main/part1)
+2. [Data manipulation with Pandas](https://github.com/AroojArif12143/SILP/tree/main/part2)
+3. [How a single Jupyter Notebook can be used to pre-empt flash flooding and prevent loss](https://github.com/AroojArif12143/SILP/tree/main/part3)
+4. [Flood prediction using Logistic Regression in Pakistan](https://github.com/AroojArif12143/SILP/tree/main/part4)
+5. [Flood Prediction using Azure Machine Learning](https://github.com/AroojArif12143/SILP/tree/main/part5)
 
 At the end of this tutorial, you will be able to make use of such model to  mitigate the losses associated with floods by prior prediction of flood for pre-emption.
 
