@@ -40,3 +40,24 @@ We can check if the new dataframe contains only data from **Pakistan** only.
 flood_df['Country'].value_counts()
 ```
 ![Disaster Country Value Counts](picture/flood_df_country_valuecount.png)
+
+We can then check the list of available columns. 
+```
+# check the columns
+flood_df.columns
+```
+![Flood Dataframe Columns](picture/flood_df_columns.png)
+
+Looking at the columns, we can drop the columns that are not useful in our machine learning. 
+```
+# drop all the unnecessary columns theat will not be used
+flood_df = flood_df.drop(columns=['Seq', 'ISO', 'Region', 'Glide', 'Disaster Group', 'Disaster Subgroup', 'Disaster Subtype', 'Disaster Subsubtype', 'Event Name', 'Adm Level', 
+'Admin1 Code', 'Admin2 Code', 'Continent', 'Associated Dis', 'Associated Dis2', 'Local Time', 'OFDA Response', 'Appeal', 'Declaration', 'Aid Contribution', 'Disaster Type', 'Country', 
+'Dis Mag Value', 'Dis Mag Scale', 'River Basin', 'Total Deaths', 'No Injured', 'No Affected', 'No Homeless','Total Affected', 'Insured Damages (\'000 US$)','Total Damages (\'000 US$)', 'CPI'])
+```
+We can then verify the remaining columns left. 
+```
+# check the columns
+flood_df.columns
+```
+![Flood Dataframe Columns After](picture/flood_df_columns_after.png)

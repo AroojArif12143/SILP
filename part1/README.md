@@ -1,4 +1,5 @@
 ## Global natural disaster data analysis with machine learning
+In this tutorial, we will perform some data analysis on our dataset to gain insights. 
 
 ### Essential Libaries
 Firstly, let us import the following libaries into our jupyer notebook:
@@ -22,9 +23,8 @@ Next, we will import CSV files which contains the data that we are interested in
 4. read_json: dataset is in json format
 5. read_html: dataset is in table format within an HTML webpage 
 
-In this tutorial, we will use 2 relevant dataset that can be found via Kaggle:
+In this tutorial, we will use the natural disaster dataset that can be found via Kaggle:
 1. [Natural Disaster data from 1900 to 2021](https://www.kaggle.com/code/gianlab/storm-and-flood-forecast/data)
-2. [Rainfall data for Pakistan from 1900 to 2016](https://www.kaggle.com/code/hyderghauri/eda-and-machinelearning-on-rainfall-pakistan/data)
 
 As both of the datasets are in .csv format, we will use **read_csv** and store the data as dataframe into **disaster_data** and **rainfall_data** variables.
 
@@ -55,5 +55,21 @@ sb.catplot(y = "Disaster Type", data = disaster_data, kind = "count", order=plot
 ![Disaster Type Count - Visualisation](picture/disastertype_count_seaborn.png)
 
 Based on the visualisation, we can see that flood is the most frequently occurred natural disasters around the world. 
-### Data Manipulation 
 
+As we are concern with Pakistan, let us filter the dataframe to **Pakistan** and check the occurence for each type of disaster and visualise it using seaborn.
+```
+# Filter the data to Pakistan 
+disaster_data_pakistan = disaster_data[(disaster_data['Country'] == 'Pakistan').reset_index(drop=True)]
+
+# To print the value of each disaster type
+print(disaster_data_pakistan['Disaster Type'].value_counts())
+
+# visualise the occurence using seaborn 
+plot_order = disaster_data_pakistan['Disaster Type'].value_counts().index
+sb.catplot(y = "Disaster Type", data = disaster_data_pakistan, kind = "count", order=plot_order)
+```
+![Disaster Type Count](picture/disastertype_count_pakistan.png)
+
+![Disaster Type Count - Visualisation](picture/disastertype_count_seaborn_pakistan.png)
+
+Based on the visualisation, we can see that flood is the most frequently occurred natural disasters even in Pakistan. 
