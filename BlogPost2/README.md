@@ -191,3 +191,5 @@ Then we can have a preview of the new merged data
 merged_data.head()
 ```
 ![Merged Dataframe](picture/merged_df.png)
+
+This is the end of this tutorial. Please kindly move on to the next tutorial [here](https://github.com/AroojArif12143/SILP/tree/main/BlogPost3)
