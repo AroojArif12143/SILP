@@ -1,1 +1,1 @@
-## Flood Prediction using Azure Machine Learning
+## Rainfall Prediction using Azure Machine Learning
