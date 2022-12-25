@@ -36,7 +36,9 @@ Let’s walk you through the procedure:
  ![image](https://user-images.githubusercontent.com/40885002/209472617-e014d547-b40e-4a9f-b62f-d95d9e1b58da.png)
 ![image](https://user-images.githubusercontent.com/40885002/209472621-19533a10-edb4-4ab4-b41b-c10eed8b32c9.png)
 
-12.	On successful deployment click on test button. You will be prompted to enter a year for predicting the rainfall. Kudos, you made it! :star2:
+12.	On successful deployment click on test button. You will be prompted to enter a year for predicting the rainfall. 
+
+Kudos, you made it! :star2:
 
 
 
