@@ -1,1 +1,3 @@
-## Rainfall Prediction using Azure Machine Learning
+## Modelling and Predicting Annual Precipitation for Climate Change Analysis in Pakistan
+Climate change is supercharging the evaporation process in the water cycle. It has affected the intensity and frequency of precipitation as warmer oceans increase the amount of water that evaporates into the air. Pakistan is home to over 7,200 glaciers, more than anywhere outside the poles. Rising temperatures, linked to climate change, are likely making many of them melt faster and earlier, adding water to rivers and streams that are already swollen by rainfall. The onset of heavy rain has the effect of flash flooding as water levels are risen. 
+This tutorial will walk you through an analysis of annual precipitation over the years. The modelled behavior is indicative of the impact of climate change in Pakistan. Using Azure ML a simple yet concise  model has been derived.
