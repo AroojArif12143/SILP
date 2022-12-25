@@ -74,4 +74,6 @@ sb.catplot(y = "Disaster Type", data = disaster_data_pakistan, kind = "count", o
 
 Based on the visualisation, we can see that flood is the most frequently occurred natural disasters even in Pakistan. 
 
+Kudos, you made it! :star2:
+
 This is the end of this tutorial. Please kindly move on to the next tutorial [here](https://github.com/AroojArif12143/SILP/tree/main/BlogPost2)
