@@ -13,6 +13,8 @@ In this project, the team aims to provide a tutorial on developing a flood predi
 
 At the end of this tutorial, learner will be able to make use of such model to  mitigate the losses associated with floods by prior prediction of flood for pre-emption.
 
+Many people affected by the Pakistan floods did not take the warnings seriously. This is a basic and introductory module in the series and aims to develop a logical understanding of how technology can pave the way for avoiding losses. We hope it will serve to be a reason for more people to understand and believe in technology :sparkles:
+
 ### Slides about this project (To be Updated)
 
 - [Explanatory slide deck](https://github.com/microsoft/workshop-template/blob/main/presentation.pptx?raw=true)
