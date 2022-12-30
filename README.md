@@ -18,9 +18,12 @@ Many people affected by the Pakistan floods did not take the warnings seriously.
 ![4](https://user-images.githubusercontent.com/40885002/210086378-2f05858f-56ef-40ac-896a-cd14caf79182.jpg)
 One-third of Pakistan submerged by flooding, satellite data shows | Financial Times
 
+![28113](https://user-images.githubusercontent.com/40885002/210089122-8c02dcad-1af8-4cf8-a7ea-317c4f766295.jpeg)
+
 Climate graphic of the week: One-third of Pakistan submerged by flooding, satellite data shows | Financial Times
 
 ![5](https://user-images.githubusercontent.com/40885002/210087683-18a53b22-8f3c-4fa7-b96b-f3a85fe4c2fb.png)
+
 
 ### Slides about this project (To be Updated)
 
