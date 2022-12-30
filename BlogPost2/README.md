@@ -1,4 +1,7 @@
 ## Data manipulation with Pandas
+
+![2](https://user-images.githubusercontent.com/40885002/210084915-5e125a12-3bc6-4286-84eb-6ca162c31c5d.png)
+
 In this tutorial, we will perform data manipulation on our datasets to prepare it for machine learning. 
 
 ### Essential Libaries
