@@ -10,6 +10,11 @@
 | Lijie Wong  |  
 | Mirza Baig  | 
 
+## 💻 Tech Specs
+
+![python](https://img.shields.io/badge/Python-FFD43B?style=for-the-badge&logo=python&logoColor=blue)
+![numpy](https://img.shields.io/badge/Numpy-777BB4?style=for-the-badge&logo=numpy&logoColor=white)
+![pandas](https://img.shields.io/badge/Pandas-2C2D72?style=for-the-badge&logo=pandas&logoColor=white)
 ### 📚 Project Description
 Globally 101.8 million people are affected by one or another form of natural disasters. Changes in climate conditions, especially the warming of global temperatures increases the likelihood of weather-related natural disasters. This year global warming made matters worse and a devastating flood struck one third of Pakistan causing a million homes to be shattered. Pakistan experiences a monsoon season every year and is the fifth most vulnerable country to climate change due to global warming. 
 
