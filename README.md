@@ -1,6 +1,8 @@
 ## Microsoft Learn Student Ambassador (MLSA) - Social Impact League Project (October - December 2022)
 ### Team #16: Content Development for Green Tech
 ![4](https://user-images.githubusercontent.com/40885002/210086378-2f05858f-56ef-40ac-896a-cd14caf79182.jpg)
+One-third of Pakistan submerged by flooding, satellite data shows | Financial Times
+
 ## 🏆 Team Members: 
 
 |      Name 🎖️    |  
@@ -21,7 +23,7 @@ Globally 101.8 million people are affected by one or another form of natural dis
 
 
 ![28113](https://user-images.githubusercontent.com/40885002/210089122-8c02dcad-1af8-4cf8-a7ea-317c4f766295.jpeg)
-One-third of Pakistan submerged by flooding, satellite data shows | Financial Times
+
 
 
 A great degree of loss associated with the floods can be mitigated by prior prediction and warning. An easy to go tutorial on predicting a flood can serve that cause and also create awareness in this regard. 
