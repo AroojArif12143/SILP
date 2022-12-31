@@ -1,15 +1,19 @@
 ## Microsoft Learn Student Ambassador (MLSA) - Social Impact League Project (October - December 2022)
 ### Team #16: Content Development for Green Tech
-### Team Members: 
-- Arooj Arif (Lead)
-- Chin Hao Wong 
-- Lijie Wong
-- Mirza Baig
+![4](https://user-images.githubusercontent.com/40885002/210086378-2f05858f-56ef-40ac-896a-cd14caf79182.jpg)
+## 🏆 Team Members: 
 
-### Project Description
+|      Name 🎖️    |  
+|:-------------:|
+| Arooj Arif (Lead) |  
+| Chin Hao Wong       | 
+| Lijie Wong  |  
+| Mirza Baig  | 
+
+### 📚 Project Description
 Globally 101.8 million people are affected by one or another form of natural disasters. Changes in climate conditions, especially the warming of global temperatures increases the likelihood of weather-related natural disasters. This year global warming made matters worse and a devastating flood struck one third of Pakistan causing a million homes to be shattered. Pakistan experiences a monsoon season every year and is the fifth most vulnerable country to climate change due to global warming. 
 
-![4](https://user-images.githubusercontent.com/40885002/210086378-2f05858f-56ef-40ac-896a-cd14caf79182.jpg)
+
 
 ![28113](https://user-images.githubusercontent.com/40885002/210089122-8c02dcad-1af8-4cf8-a7ea-317c4f766295.jpeg)
 One-third of Pakistan submerged by flooding, satellite data shows | Financial Times
