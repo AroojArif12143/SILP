@@ -3,6 +3,7 @@ In this tutorial, we will perform some data analysis on our dataset to gain insi
 
 ### Essential Libaries!
 ![tool](https://user-images.githubusercontent.com/93564920/210173931-82373f87-3ee9-4616-a4a5-6422076c6426.jpg)
+
 Firstly, let us import the following libaries into our jupyer notebook:
 - Pandas: Library for Data Manipulation and Analysis in Python 
 - NumPy: Libarary for Scientific Computation in Python
