@@ -1,4 +1,7 @@
 ## Global natural disaster data analysis with machine learning
+
+![disaster](https://user-images.githubusercontent.com/93564920/210174046-eee222cd-9017-40b0-929f-1b4079df8d7b.jpg)
+
 In this tutorial, we will perform some data analysis on our dataset to gain insights. 
 
 ### Essential Libaries!
