@@ -9,10 +9,10 @@
 ## Blog Post 3: How a single Jupyter Notebook can be used to pre-empt flash flooding and prevent loss
 [Click here to view](/BlogPost3)
 
-## Blog Post 4: Flood prediction using Logistic Regression in Pakistan
+## Blog Post 4: Web Scraping about Flood in Pakistan
 [Click here to view](/BlogPost4)
 
-## Blog Post 5: Flood Prediction using Azure Machine Learning
+## Blog Post 5: Modelling and Predicting Annual Precipitation for Climate Change Analysis in Pakistan
 [Click here to view](/BlogPost5)
 
 
