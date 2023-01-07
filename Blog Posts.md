@@ -15,5 +15,7 @@
 ## Blog Post 5: Modelling and Predicting Annual Precipitation for Climate Change Analysis in Pakistan
 [Click here to view](/BlogPost5)
 
+## Blog Post 6: Global Natural Disaster Prediction
+[Click here to view](/BlogPost6)
 
 
