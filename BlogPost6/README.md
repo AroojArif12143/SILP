@@ -3,7 +3,7 @@
 
 Using this tool, ypu can evaluate long term trends of climate change by automatically extracting more than 60 years of historical (1958-2020) and 30 years of projected (4 degree Celsius warming, 1985-2015) precipitation records for any location in the world. 
 
-Please uncomment the following line before using the tool for another exercise (i.e., when you intend to try the tool for a new location). This action will delete the entire output folder of your previous exercise.
+*Please uncomment the following line before using the tool for another exercise (i.e., when you intend to try the tool for a new location). This action will delete the entire output folder of your previous exercise.*
 ```
  !rm -rf '/content/project'
 ```
