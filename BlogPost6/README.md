@@ -5,7 +5,14 @@ Using this tool, ypu can evaluate long term trends of climate change by automati
 
 *Please uncomment the following line before using the tool for another exercise (i.e., when you intend to try the tool for a new location). This action will delete the entire output folder of your previous exercise.*
 ```
- !rm -rf '/content/project'
+import shutil
+import os 
+
+directory_path_to_remove = 'content/project'
+
+if os.path.exists(directory_path_to_remove):
+    print('remove directory')
+    shutil.rmtree(directory_path_to_remove)
 ```
 ## Step 1: Install modules 📊
 ```
@@ -22,11 +29,9 @@ import numpy as np
 import matplotlib.pyplot as plt
 import matplotlib.dates as mdates
 from scipy.stats import linregress
-from google.colab import files
 from matplotlib.backends.backend_pdf import PdfPages
 from matplotlib.dates import DateFormatter
 import xarray as xr
-from google.colab import files
 %matplotlib inline
 ```
 ## Step 3: Download precipitation data ⛈️
@@ -41,7 +46,7 @@ Reference:
 
 This tool can automatically access the new data whenever it is available in TerraClimate. 
 ```
-out_dir = '/content/project'
+out_dir = 'content/project'
 if not os.path.exists(out_dir + '/Prep'):
   os.makedirs(out_dir + '/Prep')
 
@@ -54,7 +59,7 @@ End_year2 = str(input("Enter the end year for climate change data (1985-2015): "
 base_P_url = "http://thredds.northwestknowledge.net:8080/thredds/fileServer/TERRACLIMATE_ALL/data/TerraClimate_ppt_"
 for i in range(int(Start_year), int(End_year)+1):
   target_P_url = base_P_url +str(i)+'.nc'
-  file_P = '/content/project/Prep/TerraClimate_ppt_'+str(i)+'.nc'
+  file_P = 'content/project/Prep/TerraClimate_ppt_'+str(i)+'.nc'
   if os.path.exists(file_P):
     pass
   else: 
@@ -65,8 +70,8 @@ base_F_url = "http://thredds.northwestknowledge.net:8080/thredds/fileServer/TERR
 for j in range(int(Start_year2), int(End_year2)+1):
   target_P_url = base_P_url +str(j)+'.nc'
   target_F_url = base_F_url +str(j)+'.nc'
-  file_P = '/content/project/Prep/TerraClimate_ppt_'+str(j)+'.nc'
-  file_F = '/content/project/Prep/TerraClimate_4c_ppt_'+str(j)+'.nc'
+  file_P = 'content/project/Prep/TerraClimate_ppt_'+str(j)+'.nc'
+  file_F = 'content/project/Prep/TerraClimate_4c_ppt_'+str(j)+'.nc'
   
   if os.path.exists(file_P):
     pass
@@ -95,7 +100,7 @@ Lon = str(input("Please type longitude: "))
 ## Step 5: Post-processing netCDF files 🔮🌟📈
 Read netCDF file and check the units of the datasets 
 ```
-os.chdir("/content/project/Prep")
+os.chdir("content/project/Prep")
 
 p = xr.open_mfdataset("TerraClimate_ppt_*.nc")
 f = xr.open_mfdataset("TerraClimate_4c_ppt_*.nc")
@@ -254,9 +259,6 @@ plot_comparey.savefig(pp, format='pdf')
 pp.close()
 ```
 ```
-!zip -r /content/project/results.zip /content/project/results
-```
-```
-files.download('/content/project/results.zip')
+shutil.make_archive('content/project/results', 'zip', 'content/project/results')
 ```
 Kudos, you did it! ✨
