@@ -1,4 +1,4 @@
-## Data Vsiaulaization with Pandas
+## Data Manipulation with Pandas
 
 ![2](https://user-images.githubusercontent.com/40885002/210084915-5e125a12-3bc6-4286-84eb-6ca162c31c5d.png)
 
