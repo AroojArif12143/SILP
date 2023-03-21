@@ -33,6 +33,5 @@ In this project, the team aims to provide a tutorial on developing a flood predi
 
 Many people affected by the Pakistan floods did not take the warnings seriously. This is a basic and introductory module in the series and aims to develop a logical understanding of how technology can pave the way for avoiding losses. We hope it will serve to be a reason for more people to understand and believe in technology :sparkles:
 
-### 📝 Slides about this project (To be Updated)
-
-- [Explanatory slide deck](https://github.com/microsoft/workshop-template/blob/main/presentation.pptx?raw=true)
+### 📝 Slides about this project 
+https://docs.google.com/presentation/d/1fK2MfyonhJq8msMYMj85CBvuyISSfj6R/edit?usp=share_link&ouid=114995262668967873888&rtpof=true&sd=true
